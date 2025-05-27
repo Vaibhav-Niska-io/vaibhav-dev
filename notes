@@ -1,0 +1,24 @@
+# DEV - OPS Overview
+
+# Waterfall Model - Agile Model
+# solution Is devops of these models
+
+Dev ops is not a technology, it is a methodology
+Everything is developing continously in dev ops 
+
+# Dev ops stages 
+    version Control - Maintain Different versions of code
+    Continuous Integration - Compile, Validate, Code Review, Unit Testing, Integration Tesing
+    Continuous Delivery - Deploying the build application to test servers, Performing UAT
+    Continuous Deployment- Deploying the tested application on the prod server for release
+
+
+# Source Code Management
+    The management of changes to docuents computer programs. large websiutes and other collection of information
+      There are two types of source code management
+        Centralized Version Control system
+        Destributed Version Control system
+
+
+# GIT
+    Git is a distributed Version Control tool that supports distributed non linear workflow by providing data assuring for developing quality software
