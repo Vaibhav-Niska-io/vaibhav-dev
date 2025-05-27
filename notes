@@ -22,3 +22,45 @@ Everything is developing continously in dev ops
 
 # GIT
     Git is a distributed Version Control tool that supports distributed non linear workflow by providing data assuring for developing quality software
+
+# Continuous Itegration  
+jenkin server Continouos Integration Tool 
+(Jenkin originally written in java)
+
+# Continuous Delivery
+Deploy the build application on the test server for uat 
+
+# Continuous Deployment 
+Deploy the build application on the prod server for release.
+
+# Configuration Management 
+    CM is the pactice of handling changes systematically so that a system maintains its integrity over time
+    
+    CM ensures that the current design and build state of the system is known, good and trusted
+    
+    it doesn`t rely on the tacit of knowledge of the development team
+
+# Tools for configuation Manafement
+  > Puppet
+      this follows master slave architechture
+
+# Containerization
+  light weight alternative to virtual machines
+
+# Docker
+
+# Continuous Monitoring
+      (Nagios is Continuous Monitoring tool)
+
+    Continuous Monitoring is all about the ability of an organization to detect report, repond, contain and mitigate the attacts that occurs in its infrastructue
+
+
+# Dev Ops Use Case
+
+    Developer Commiting the code to the git repository 
+    then jenkins pull that code and it will clone the repository 
+    then it willcreate a doker image
+    we are going to test that image and them we oush that image to the doker hub like a git repository
+
+# Tools we are going to use is GIT JENKINS DOKER
+
