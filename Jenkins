@@ -1,0 +1,51 @@
+https://www.geeksforgeeks.org/what-is-jenkins/
+# Jenkins 
+    It is an open source automation tool written in java with plugins built for continuous integration puropse. plugins allows integration of various Devops Stages.
+
+# Jenkins Core Concepts
+    > Jenkins Controller ( formerly Master)
+        the jenkins controller servers as thew central system for managing a jenkins instance often referred to as its heart
+        The jenkins Controller loads plugins and ensures that jobs run in the corret sequence
+    > jenkins Agent(Formerly Slave)
+        Jenkins agent is a machine that performs tasks like running scripts executing test or building components etc.
+
+        There are two main types of agents 
+            Permanent Agents - These are always ready and connected to jenkins
+                                They are like dedicated workers that are always on standby
+            Ephemeral Agents - These are Temporary, jenkins starts them only when needed usually in the cloud or using tool like doker. When the job is done they are swhut down.
+    
+    > Jenkins Node 
+        A jenkins node is a term that is used in jenkins 2.0 to mean any system that can run jrnkins jobs.
+        This is mainly used in controlleers and Agents somtimes used insted of those Terms.
+        A Node is a machine that jenkins uses to run jobs like building and testing projects.
+         Jenkins keeps an eye on all the connected nodes to make sure they are working properly if a node isnt performing well or its health dropes below a certain threshold level jenkins will take that node offline to prevent any problems
+
+
+    > Jenkins Job 
+        jenkins jobs are used to perform the work in the jenkins system. A jenkin
+        s jobs is an automatedjob that you set uo in jenkins to do things like build test or deploy your code. Instead of doing these steps manually every time jenkins can do them for you wheather there change in you code this helps saves time and reduces mistakes
+    
+    > Jenkins Plugins
+        Jenkins provide 2000 of commnity cotributed plugins which developers can use for building deploying and automating any project by using jenkins plugins you  can use those featres in your jenkins instance which are not given in jenkins by default. You can easily install and updrage these available plugins easily from the jenkins dashboard  
+    
+    > Jenkins Pipeline
+        Devops Professionls mostly work with pipelines ecause pipeliunes can automate the processess like building testing and deploying the application. Doing manually by ui takes lots of time and effort which will affect productivity with the help of ci/cd pipelineds scrpts we can automate the whole process which all incerease productivity and sace lots oftime for the orgnization and can deliver quality applications to the end users
+
+# Key features of jenkins
+    > Easy installation and Configuration 
+        jenkins is a self contained java application that can run various operating system including windows linux and macos. Its inline interface is strightforword to set up and configure featuring error checking and a built in help feature. jenkins can be installed using a standerd installation process or via a file. After installation you can easily set it up using the web interface
+    
+    > Open source Availabilty
+        Jenkins is free and open source ci/cd that can be easily downloaded use and customixe by anyone
+    
+    > Offer a varity of plugins
+        Jenkins offers more that 1000+ plugins which can be easily downloaded installed using jenkins web ui or cli from the jenkins plugin repository
+
+    > Supports continuous Integration and Continuous Delivery
+        jenkins automates the process of testing building and deploying your code everytime you make changes jenkins can test and deliver them automatically
+
+    > Server based Security
+        Jenkins secures both the server and user access. The server (VM or physical) is locked down using OS and network settings, allowing only limited access. Multi-factor authentication (MFA) is used to restrict Jenkins UI access to trusted users. Popular security plugins are Role-Based Authorization Strategy, Role-Based Authorization Strategy, Matrix-Based Security etc.
+
+
+ 

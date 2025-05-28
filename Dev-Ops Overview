@@ -1,0 +1,108 @@
+# DEV - OPS Overview
+
+# Waterfall Model - Agile Model
+# solution Is devops of these models
+
+Dev ops is not a technology, it is a methodology
+Everything is developing continously in dev ops 
+
+# Dev ops stages 
+    version Control - Maintain Different versions of code
+    Continuous Integration - Compile, Validate, Code Review, Unit Testing, Integration Tesing
+    Continuous Delivery - Deploying the build application to test servers, Performing UAT
+    Continuous Deployment- Deploying the tested application on the prod server for release
+
+
+# Source Code Management
+    The management of changes to docuents computer programs. large websiutes and other collection of information
+      There are two types of source code management
+        Centralized Version Control system
+        Destributed Version Control system
+
+# Dev Ops Use Case
+
+    Developer Commiting the code to the git repository 
+    then jenkins pull that code and it will clone the repository 
+    then it willcreate a doker image
+    we are going to test that image and them we oush that image to the doker hub like a git repository
+
+# Tools we are going to use is GIT JENKINS DOKER
+
+
+
+
+
+
+1. Fundamentals:
+Understanding DevOps Principles:
+  Familiarize yourself with the core concepts of DevOps, including the collaborative nature of development and operations, automation, and continuous delivery. 
+  
+  Software Development Life Cycle (SDLC):
+  Understand the various stages of the SDLC, from planning and development to testing, deployment, and maintenance.
+
+  Agile Methodologies:
+  Learn about Agile methodologies like Scrum, which are commonly used in DevOps environments.
+
+2. Core Skills:
+    Version Control with Git:
+    Master Git for managing source code, branching, merging, and collaborating on projects. 
+
+    CI/CD Pipelines:
+    Learn to build, test, and deploy applications using CI/CD pipelines, automating the process of releasing software.
+
+    Containers & Kubernetes:
+    Understand containerization technologies like Docker and container orchestration platforms like Kubernetes, which enable scalable and portable deployments. 
+
+    Infrastructure as Code (IaC):
+    Learn to define and manage infrastructure as code using tools like Terraform, allowing for automated infrastructure provisioning and management.
+
+    Cloud Computing:
+    Gain knowledge of cloud platforms like AWS, Azure, or Google Cloud, including their services and infrastructure. 
+
+    Security & DevSecOps:
+    Understand security best practices and how to integrate security into the development process, from planning to deployment (DevSecOps). 
+
+    Monitoring & Observability:
+    Learn how to monitor applications and infrastructure, collect data, and identify issues using tools like Prometheus and Grafana. 
+
+    Site Reliability Engineering (SRE):
+    Explore SRE principles, which focus on ensuring the reliability and availability of applications and systems. 
+
+3. Additional Considerations:
+    Collaboration and Communication:
+    Develop strong communication skills and learn to work effectively with different teams (development, operations, security). 
+
+    Automation:
+    Embrace automation as a key aspect of DevOps, automating repetitive tasks and processes. 
+
+    Continuous Improvement:
+    Cultivate a mindset of continuous improvement, regularly evaluating processes and tools to optimize performance. 
+
+    Problem-Solving:
+    Develop strong problem-solving skills to troubleshoot issues and identify solutions. 
+
+    Documentation:
+    n to document processes and configurations, ensuring clarity and maintainability. 
+
+4. Tools and Technologies:
+    Version Control: Git, Bitbucket, GitHub, GitLab
+
+    CI/CD: Jenkins, CircleCI, GitLab CI, GitHub Actions
+
+    Containers: Docker, Containerd
+
+    Container Orchestration: Kubernetes, Docker Swarm
+
+    Infrastructure as Code: Terraform, Ansible, Puppet, Chef
+
+    Cloud Platforms: AWS, Azure, Google Cloud
+
+    Monitoring & Logging: Prometheus, Grafana, ELK Stack, Splunk
+
+    DevOps Tools: Jira, Slack, Microsoft Teams 
+
+  By following this roadmap and focusing on the principles, skills, and tools mentioned, you can effectively build a career in DevOps or improve your DevOps practices. 
+
+
+
+    

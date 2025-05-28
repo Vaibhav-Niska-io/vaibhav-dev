@@ -1,0 +1,63 @@
+# Continuous Itegration  
+jenkin server Continouos Integration Tool 
+(Jenkin originally written in java)
+
+# Continuous Delivery
+Deploy the build application on the test server for uat 
+
+# Continuous Deployment 
+Deploy the build application on the prod server for release.
+
+# Configuration Management 
+    CM is the pactice of handling changes systematically so that a system maintains its integrity over time
+    
+    CM ensures that the current design and build state of the system is known, good and trusted
+    
+    it doesn`t rely on the tacit of knowledge of the development team
+
+# Tools for configuation Manafement
+  > Puppet
+      this follows master slave architechture
+
+# Containerization
+  light weight alternative to virtual machines
+
+  # Continuous Monitoring
+      (Nagios is Continuous Monitoring tool)
+
+    Continuous Monitoring is all about the ability of an organization to detect report, repond, contain and mitigate the attacts that occurs in its infrastructue
+
+# Contiguous Integration Using Jenkins
+  Problem Before CI 
+      > Developers have to wait till the completesoftware developed fro the result 
+      > Software delivery process was very slow
+
+    #  Continuous integration to the rescue 
+        > Since after commit to the source code an auto build is triggered abd then it is automatically developed on the   test server 
+        > if the test result showa that there is a bug in the code then the developers only jave to check the last commit  made to the source code
+        > this is also increase43 the frequency of new softare release
+        > the concerned terms are always provided with the relevent feedback
+
+  # before Continuous Integration 
+    the entire source code was built and then tested
+    DEvelopers have to wait for the test results 
+    No Feedback
+
+  # After Continuous Integration
+    Every Commit made in the source code is built and tested 
+    Developers know the test result of every commit made in the source code on the run
+    feedback is present
+    
+  # what is continuous integration 
+    -> CI is a development practice in which the developers are required to commit changes to the source code in a shared repository several times a day or more frequently
+    -> Every commit made in the repository is built. this allows the teams to detect the problems early   
+
+  # CI tools 
+      -> Jenkins - it is an open source automation tool written in java with plugins built for continuous integration puropse. plugins allows integration of various Devops Stages.
+
+    -> Plugins 
+        Maven, JUnit, HTML Publisher, Jenkins Builf Notifications Plugin, Deploy plugin 
+
+    buildboot
+    travis CI
+    Bamboo
