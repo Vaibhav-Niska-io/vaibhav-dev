@@ -47,5 +47,17 @@ https://www.geeksforgeeks.org/what-is-jenkins/
     > Server based Security
         Jenkins secures both the server and user access. The server (VM or physical) is locked down using OS and network settings, allowing only limited access. Multi-factor authentication (MFA) is used to restrict Jenkins UI access to trusted users. Popular security plugins are Role-Based Authorization Strategy, Role-Based Authorization Strategy, Matrix-Based Security etc.
 
+# Jenkins Architecture
+    Jenkin works on Master-Slave architecture(Controller Agent)
+    Jenkins Controller(Master)
+    Jenkins Agent
+    Communication
+    Plugins in Jenkins
+     
+
+
+
+
+
 
  
